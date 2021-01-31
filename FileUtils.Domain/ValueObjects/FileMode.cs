@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FileUtils.Domain.ValueObjects
+﻿namespace FileUtils.Domain.ValueObjects
 {
     /// <summary>
     /// System.IO.FileModeを使いやすくしたクラス。

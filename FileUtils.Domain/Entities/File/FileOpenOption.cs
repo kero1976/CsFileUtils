@@ -32,6 +32,5 @@ namespace FileUtils.Domain.Entities.File
         /// アクセス
         /// </summary>
         public FileAccess Access { get; }
-
     }
 }
