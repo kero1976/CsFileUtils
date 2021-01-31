@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.設定手順", "1.設定手順", "{F322C5BA-DA50-4722-BEA9-EFE23C72EEE2}"
 	ProjectSection(SolutionItems) = preProject
 		01環境構築.txt = 01環境構築.txt
+		02.サブプロジェクトの作成.txt = 02.サブプロジェクトの作成.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUtils.Domain", "FileUtils.Domain\FileUtils.Domain.csproj", "{0DF1593B-8813-4E2D-A8F5-AE8B24587C32}"
@@ -16,6 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "設定ファイル", "設�
 	ProjectSection(SolutionItems) = preProject
 		CustomRuleSet.ruleset = CustomRuleSet.ruleset
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.フォルダ構成説明", "2.フォルダ構成説明", "{021FB01A-2D18-4313-8389-713AD22AD250}"
+	ProjectSection(SolutionItems) = preProject
+		01Domein.txt = 01Domein.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUtils.WPF", "FileUtils.WPF\FileUtils.WPF.csproj", "{57F6C87A-2A68-495B-B258-D74E3E959B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUtilsTest.Tests", "FileUtilsTest.Tests\FileUtilsTest.Tests.csproj", "{728D4323-5F51-4FD1-8CCA-4A5FB8BA7668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,12 +37,21 @@ Global
 		{0DF1593B-8813-4E2D-A8F5-AE8B24587C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DF1593B-8813-4E2D-A8F5-AE8B24587C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DF1593B-8813-4E2D-A8F5-AE8B24587C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F6C87A-2A68-495B-B258-D74E3E959B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F6C87A-2A68-495B-B258-D74E3E959B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F6C87A-2A68-495B-B258-D74E3E959B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F6C87A-2A68-495B-B258-D74E3E959B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728D4323-5F51-4FD1-8CCA-4A5FB8BA7668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728D4323-5F51-4FD1-8CCA-4A5FB8BA7668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728D4323-5F51-4FD1-8CCA-4A5FB8BA7668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728D4323-5F51-4FD1-8CCA-4A5FB8BA7668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F322C5BA-DA50-4722-BEA9-EFE23C72EEE2} = {BE3F3E68-5596-43AF-8FC0-8BDFDE69BCD1}
+		{021FB01A-2D18-4313-8389-713AD22AD250} = {BE3F3E68-5596-43AF-8FC0-8BDFDE69BCD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3F31531-F1D1-4352-A4C6-E9D9743484B3}
